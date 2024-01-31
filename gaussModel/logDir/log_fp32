@@ -1,0 +1,352 @@
+  rank 0: teslagpus[4] is available!
+  rank 1: teslagpus[5] is available!
+  rank 2: teslagpus[6] is available!
+  rank 3: teslagpus[7] is available!
+=============================================
+MPI:  PX =     1, PY =     4, PZ =     1
+GRID: NX =   600, NY =   600, NZ =   300
+DH = 5.00e+01
+=============================================
+No SRTM90 Terrain model is used!
+No Multi-source model is used!
+No ShenModel is used!
+No Crust_1Medel is used!
+slice.X = 2, slice.Y = 152, slice.Z = 302
+slice.X = 2, slice.Y = -148, slice.Z = 302
+slice.X = 2, slice.Y = 302, slice.Z = 302
+Construct coordinate including precessing terrian data...
+slice.X = 2, slice.Y = 2, slice.Z = 302
+Construct medium including precessing Vs Vp Rho...
+H   Range: 1.88e+01 ~ 5.30e+01
+Vs  Range: 3.46e+03 ~ 3.46e+03
+Vp  Range: 6.00e+03 ~ 6.00e+03
+rho Range: 2.67e+03 ~ 2.67e+03
+dtmax = 4.17e-03, DT = 3.00e-03
+Slice Position Coordinate(x, y, z) and Medium(Vp, Vs, Rho) data output...
+lambda_max = 0.000000, ev = 0.000000
+new lambda = 0.000000
+lambda_max = 0.000000, ev = 0.000000
+new lambda = 0.000000
+lambda_max = 0.000000, ev = 0.000000
+new lambda = 0.000000
+lambda_max = 0.000000, ev = 0.000000
+new lambda = 0.000000
+      mu = 96114360.000000
+  lambda = 96131280.000000
+buoyancy = 0.000001
+      mu = 96114360.000000
+  lambda = 96131280.000000
+buoyancy = 0.000001
+      mu = 96114360.000000
+  lambda = 96131280.000000
+buoyancy = 0.000001
+      mu = 96114360.000000
+  lambda = 96131280.000000
+buoyancy = 0.000001
+source.X = 202, source.Y = 2, source.Z = 282
+source.X = 202, source.Y = 152, source.Z = 282
+source.X = 202, source.Y = -148, source.Z = 282
+source.X = 202, source.Y = 302, source.Z = 282
+Start calculating Wave Field:
+it =        0. Step time loss:    0.050s. Total time loss:    1.790s.
+it =       10. Step time loss:    0.360s. Total time loss:    2.150s.
+it =       20. Step time loss:    0.350s. Total time loss:    2.500s.
+it =       30. Step time loss:    0.360s. Total time loss:    2.860s.
+it =       40. Step time loss:    0.340s. Total time loss:    3.200s.
+it =       50. Step time loss:    0.350s. Total time loss:    3.550s.
+it =       60. Step time loss:    0.350s. Total time loss:    3.900s.
+it =       70. Step time loss:    0.340s. Total time loss:    4.240s.
+it =       80. Step time loss:    0.360s. Total time loss:    4.600s.
+it =       90. Step time loss:    0.340s. Total time loss:    4.940s.
+it =      100. Step time loss:    0.360s. Total time loss:    5.300s.
+it =      110. Step time loss:    0.350s. Total time loss:    5.650s.
+it =      120. Step time loss:    0.350s. Total time loss:    6.000s.
+it =      130. Step time loss:    0.340s. Total time loss:    6.340s.
+it =      140. Step time loss:    0.360s. Total time loss:    6.700s.
+it =      150. Step time loss:    0.340s. Total time loss:    7.040s.
+it =      160. Step time loss:    0.350s. Total time loss:    7.390s.
+it =      170. Step time loss:    0.340s. Total time loss:    7.730s.
+it =      180. Step time loss:    0.360s. Total time loss:    8.090s.
+it =      190. Step time loss:    0.340s. Total time loss:    8.430s.
+it =      200. Step time loss:    0.360s. Total time loss:    8.790s.
+it =      210. Step time loss:    0.350s. Total time loss:    9.140s.
+it =      220. Step time loss:    0.340s. Total time loss:    9.480s.
+it =      230. Step time loss:    0.350s. Total time loss:    9.830s.
+it =      240. Step time loss:    0.350s. Total time loss:   10.180s.
+it =      250. Step time loss:    0.350s. Total time loss:   10.530s.
+it =      260. Step time loss:    0.340s. Total time loss:   10.870s.
+it =      270. Step time loss:    0.350s. Total time loss:   11.220s.
+it =      280. Step time loss:    0.350s. Total time loss:   11.570s.
+it =      290. Step time loss:    0.340s. Total time loss:   11.910s.
+it =      300. Step time loss:    0.360s. Total time loss:   12.270s.
+it =      310. Step time loss:    0.350s. Total time loss:   12.620s.
+it =      320. Step time loss:    0.340s. Total time loss:   12.960s.
+it =      330. Step time loss:    0.350s. Total time loss:   13.310s.
+it =      340. Step time loss:    0.350s. Total time loss:   13.660s.
+it =      350. Step time loss:    0.340s. Total time loss:   14.000s.
+it =      360. Step time loss:    0.350s. Total time loss:   14.350s.
+it =      370. Step time loss:    0.350s. Total time loss:   14.700s.
+it =      380. Step time loss:    0.350s. Total time loss:   15.050s.
+it =      390. Step time loss:    0.340s. Total time loss:   15.390s.
+it =      400. Step time loss:    0.360s. Total time loss:   15.750s.
+it =      410. Step time loss:    0.350s. Total time loss:   16.100s.
+it =      420. Step time loss:    0.350s. Total time loss:   16.450s.
+it =      430. Step time loss:    0.350s. Total time loss:   16.800s.
+it =      440. Step time loss:    0.330s. Total time loss:   17.130s.
+it =      450. Step time loss:    0.350s. Total time loss:   17.480s.
+it =      460. Step time loss:    0.350s. Total time loss:   17.830s.
+it =      470. Step time loss:    0.340s. Total time loss:   18.170s.
+it =      480. Step time loss:    0.350s. Total time loss:   18.520s.
+it =      490. Step time loss:    0.340s. Total time loss:   18.860s.
+it =      500. Step time loss:    0.370s. Total time loss:   19.230s.
+it =      510. Step time loss:    0.340s. Total time loss:   19.570s.
+it =      520. Step time loss:    0.350s. Total time loss:   19.920s.
+it =      530. Step time loss:    0.350s. Total time loss:   20.270s.
+it =      540. Step time loss:    0.340s. Total time loss:   20.610s.
+it =      550. Step time loss:    0.350s. Total time loss:   20.960s.
+it =      560. Step time loss:    0.350s. Total time loss:   21.310s.
+it =      570. Step time loss:    0.340s. Total time loss:   21.650s.
+it =      580. Step time loss:    0.350s. Total time loss:   22.000s.
+it =      590. Step time loss:    0.350s. Total time loss:   22.350s.
+it =      600. Step time loss:    0.360s. Total time loss:   22.710s.
+it =      610. Step time loss:    0.340s. Total time loss:   23.050s.
+it =      620. Step time loss:    0.350s. Total time loss:   23.400s.
+it =      630. Step time loss:    0.350s. Total time loss:   23.750s.
+it =      640. Step time loss:    0.340s. Total time loss:   24.090s.
+it =      650. Step time loss:    0.350s. Total time loss:   24.440s.
+it =      660. Step time loss:    0.350s. Total time loss:   24.790s.
+it =      670. Step time loss:    0.350s. Total time loss:   25.140s.
+it =      680. Step time loss:    0.350s. Total time loss:   25.490s.
+it =      690. Step time loss:    0.340s. Total time loss:   25.830s.
+it =      700. Step time loss:    0.360s. Total time loss:   26.190s.
+it =      710. Step time loss:    0.340s. Total time loss:   26.530s.
+it =      720. Step time loss:    0.350s. Total time loss:   26.880s.
+it =      730. Step time loss:    0.350s. Total time loss:   27.230s.
+it =      740. Step time loss:    0.340s. Total time loss:   27.570s.
+it =      750. Step time loss:    0.350s. Total time loss:   27.920s.
+it =      760. Step time loss:    0.340s. Total time loss:   28.260s.
+it =      770. Step time loss:    0.350s. Total time loss:   28.610s.
+it =      780. Step time loss:    0.350s. Total time loss:   28.960s.
+it =      790. Step time loss:    0.340s. Total time loss:   29.300s.
+it =      800. Step time loss:    0.360s. Total time loss:   29.660s.
+it =      810. Step time loss:    0.350s. Total time loss:   30.010s.
+it =      820. Step time loss:    0.350s. Total time loss:   30.360s.
+it =      830. Step time loss:    0.340s. Total time loss:   30.700s.
+it =      840. Step time loss:    0.350s. Total time loss:   31.050s.
+it =      850. Step time loss:    0.340s. Total time loss:   31.390s.
+it =      860. Step time loss:    0.350s. Total time loss:   31.740s.
+it =      870. Step time loss:    0.350s. Total time loss:   32.090s.
+it =      880. Step time loss:    0.340s. Total time loss:   32.430s.
+it =      890. Step time loss:    0.350s. Total time loss:   32.780s.
+it =      900. Step time loss:    0.360s. Total time loss:   33.140s.
+it =      910. Step time loss:    0.340s. Total time loss:   33.480s.
+it =      920. Step time loss:    0.350s. Total time loss:   33.830s.
+it =      930. Step time loss:    0.350s. Total time loss:   34.180s.
+it =      940. Step time loss:    0.350s. Total time loss:   34.530s.
+it =      950. Step time loss:    0.340s. Total time loss:   34.870s.
+it =      960. Step time loss:    0.340s. Total time loss:   35.210s.
+it =      970. Step time loss:    0.350s. Total time loss:   35.560s.
+it =      980. Step time loss:    0.350s. Total time loss:   35.910s.
+it =      990. Step time loss:    0.350s. Total time loss:   36.260s.
+it =     1000. Step time loss:    0.350s. Total time loss:   36.610s.
+it =     1010. Step time loss:    0.350s. Total time loss:   36.960s.
+it =     1020. Step time loss:    0.340s. Total time loss:   37.300s.
+it =     1030. Step time loss:    0.350s. Total time loss:   37.650s.
+it =     1040. Step time loss:    0.350s. Total time loss:   38.000s.
+it =     1050. Step time loss:    0.340s. Total time loss:   38.340s.
+it =     1060. Step time loss:    0.350s. Total time loss:   38.690s.
+it =     1070. Step time loss:    0.350s. Total time loss:   39.040s.
+it =     1080. Step time loss:    0.340s. Total time loss:   39.380s.
+it =     1090. Step time loss:    0.350s. Total time loss:   39.730s.
+it =     1100. Step time loss:    0.350s. Total time loss:   40.080s.
+it =     1110. Step time loss:    0.350s. Total time loss:   40.430s.
+it =     1120. Step time loss:    0.350s. Total time loss:   40.780s.
+it =     1130. Step time loss:    0.340s. Total time loss:   41.120s.
+it =     1140. Step time loss:    0.350s. Total time loss:   41.470s.
+it =     1150. Step time loss:    0.350s. Total time loss:   41.820s.
+it =     1160. Step time loss:    0.350s. Total time loss:   42.170s.
+it =     1170. Step time loss:    0.340s. Total time loss:   42.510s.
+it =     1180. Step time loss:    0.350s. Total time loss:   42.860s.
+it =     1190. Step time loss:    0.350s. Total time loss:   43.210s.
+it =     1200. Step time loss:    0.350s. Total time loss:   43.560s.
+it =     1210. Step time loss:    0.340s. Total time loss:   43.900s.
+it =     1220. Step time loss:    0.350s. Total time loss:   44.250s.
+it =     1230. Step time loss:    0.340s. Total time loss:   44.590s.
+it =     1240. Step time loss:    0.360s. Total time loss:   44.950s.
+it =     1250. Step time loss:    0.340s. Total time loss:   45.290s.
+it =     1260. Step time loss:    0.340s. Total time loss:   45.630s.
+it =     1270. Step time loss:    0.350s. Total time loss:   45.980s.
+it =     1280. Step time loss:    0.340s. Total time loss:   46.320s.
+it =     1290. Step time loss:    0.360s. Total time loss:   46.680s.
+it =     1300. Step time loss:    0.350s. Total time loss:   47.030s.
+it =     1310. Step time loss:    0.350s. Total time loss:   47.380s.
+it =     1320. Step time loss:    0.350s. Total time loss:   47.730s.
+it =     1330. Step time loss:    0.350s. Total time loss:   48.080s.
+it =     1340. Step time loss:    0.340s. Total time loss:   48.420s.
+it =     1350. Step time loss:    0.340s. Total time loss:   48.760s.
+it =     1360. Step time loss:    0.350s. Total time loss:   49.110s.
+it =     1370. Step time loss:    0.350s. Total time loss:   49.460s.
+it =     1380. Step time loss:    0.350s. Total time loss:   49.810s.
+it =     1390. Step time loss:    0.340s. Total time loss:   50.150s.
+it =     1400. Step time loss:    0.360s. Total time loss:   50.510s.
+it =     1410. Step time loss:    0.350s. Total time loss:   50.860s.
+it =     1420. Step time loss:    0.330s. Total time loss:   51.190s.
+it =     1430. Step time loss:    0.360s. Total time loss:   51.550s.
+it =     1440. Step time loss:    0.340s. Total time loss:   51.890s.
+it =     1450. Step time loss:    0.350s. Total time loss:   52.240s.
+it =     1460. Step time loss:    0.340s. Total time loss:   52.580s.
+it =     1470. Step time loss:    0.350s. Total time loss:   52.930s.
+it =     1480. Step time loss:    0.350s. Total time loss:   53.280s.
+it =     1490. Step time loss:    0.350s. Total time loss:   53.630s.
+it =     1500. Step time loss:    0.360s. Total time loss:   53.990s.
+it =     1510. Step time loss:    0.340s. Total time loss:   54.330s.
+it =     1520. Step time loss:    0.350s. Total time loss:   54.680s.
+it =     1530. Step time loss:    0.340s. Total time loss:   55.020s.
+it =     1540. Step time loss:    0.350s. Total time loss:   55.370s.
+it =     1550. Step time loss:    0.350s. Total time loss:   55.720s.
+it =     1560. Step time loss:    0.340s. Total time loss:   56.060s.
+it =     1570. Step time loss:    0.340s. Total time loss:   56.400s.
+it =     1580. Step time loss:    0.350s. Total time loss:   56.750s.
+it =     1590. Step time loss:    0.350s. Total time loss:   57.100s.
+it =     1600. Step time loss:    0.360s. Total time loss:   57.460s.
+it =     1610. Step time loss:    0.340s. Total time loss:   57.800s.
+it =     1620. Step time loss:    0.350s. Total time loss:   58.150s.
+it =     1630. Step time loss:    0.340s. Total time loss:   58.490s.
+it =     1640. Step time loss:    0.350s. Total time loss:   58.840s.
+it =     1650. Step time loss:    0.350s. Total time loss:   59.190s.
+it =     1660. Step time loss:    0.340s. Total time loss:   59.530s.
+it =     1670. Step time loss:    0.350s. Total time loss:   59.880s.
+it =     1680. Step time loss:    0.350s. Total time loss:   60.230s.
+it =     1690. Step time loss:    0.350s. Total time loss:   60.580s.
+it =     1700. Step time loss:    0.350s. Total time loss:   60.930s.
+it =     1710. Step time loss:    0.350s. Total time loss:   61.280s.
+it =     1720. Step time loss:    0.340s. Total time loss:   61.620s.
+it =     1730. Step time loss:    0.350s. Total time loss:   61.970s.
+it =     1740. Step time loss:    0.350s. Total time loss:   62.320s.
+it =     1750. Step time loss:    0.350s. Total time loss:   62.670s.
+it =     1760. Step time loss:    0.340s. Total time loss:   63.010s.
+it =     1770. Step time loss:    0.340s. Total time loss:   63.350s.
+it =     1780. Step time loss:    0.360s. Total time loss:   63.710s.
+it =     1790. Step time loss:    0.340s. Total time loss:   64.050s.
+it =     1800. Step time loss:    0.360s. Total time loss:   64.410s.
+it =     1810. Step time loss:    0.350s. Total time loss:   64.760s.
+it =     1820. Step time loss:    0.340s. Total time loss:   65.100s.
+it =     1830. Step time loss:    0.350s. Total time loss:   65.450s.
+it =     1840. Step time loss:    0.350s. Total time loss:   65.800s.
+it =     1850. Step time loss:    0.350s. Total time loss:   66.150s.
+it =     1860. Step time loss:    0.340s. Total time loss:   66.490s.
+it =     1870. Step time loss:    0.340s. Total time loss:   66.830s.
+it =     1880. Step time loss:    0.350s. Total time loss:   67.180s.
+it =     1890. Step time loss:    0.350s. Total time loss:   67.530s.
+it =     1900. Step time loss:    0.360s. Total time loss:   67.890s.
+it =     1910. Step time loss:    0.340s. Total time loss:   68.230s.
+it =     1920. Step time loss:    0.350s. Total time loss:   68.580s.
+it =     1930. Step time loss:    0.340s. Total time loss:   68.920s.
+it =     1940. Step time loss:    0.350s. Total time loss:   69.270s.
+it =     1950. Step time loss:    0.350s. Total time loss:   69.620s.
+it =     1960. Step time loss:    0.350s. Total time loss:   69.970s.
+it =     1970. Step time loss:    0.340s. Total time loss:   70.310s.
+it =     1980. Step time loss:    0.350s. Total time loss:   70.660s.
+it =     1990. Step time loss:    0.340s. Total time loss:   71.000s.
+it =     2000. Step time loss:    0.360s. Total time loss:   71.360s.
+it =     2010. Step time loss:    0.340s. Total time loss:   71.700s.
+it =     2020. Step time loss:    0.360s. Total time loss:   72.060s.
+it =     2030. Step time loss:    0.340s. Total time loss:   72.400s.
+it =     2040. Step time loss:    0.350s. Total time loss:   72.750s.
+it =     2050. Step time loss:    0.350s. Total time loss:   73.100s.
+it =     2060. Step time loss:    0.350s. Total time loss:   73.450s.
+it =     2070. Step time loss:    0.340s. Total time loss:   73.790s.
+it =     2080. Step time loss:    0.350s. Total time loss:   74.140s.
+it =     2090. Step time loss:    0.340s. Total time loss:   74.480s.
+it =     2100. Step time loss:    0.360s. Total time loss:   74.840s.
+it =     2110. Step time loss:    0.350s. Total time loss:   75.190s.
+it =     2120. Step time loss:    0.340s. Total time loss:   75.530s.
+it =     2130. Step time loss:    0.350s. Total time loss:   75.880s.
+it =     2140. Step time loss:    0.350s. Total time loss:   76.230s.
+it =     2150. Step time loss:    0.340s. Total time loss:   76.570s.
+it =     2160. Step time loss:    0.350s. Total time loss:   76.920s.
+it =     2170. Step time loss:    0.350s. Total time loss:   77.270s.
+it =     2180. Step time loss:    0.340s. Total time loss:   77.610s.
+it =     2190. Step time loss:    0.350s. Total time loss:   77.960s.
+it =     2200. Step time loss:    0.350s. Total time loss:   78.310s.
+it =     2210. Step time loss:    0.340s. Total time loss:   78.650s.
+it =     2220. Step time loss:    0.350s. Total time loss:   79.000s.
+it =     2230. Step time loss:    0.350s. Total time loss:   79.350s.
+it =     2240. Step time loss:    0.350s. Total time loss:   79.700s.
+it =     2250. Step time loss:    0.340s. Total time loss:   80.040s.
+it =     2260. Step time loss:    0.350s. Total time loss:   80.390s.
+it =     2270. Step time loss:    0.350s. Total time loss:   80.740s.
+it =     2280. Step time loss:    0.340s. Total time loss:   81.080s.
+it =     2290. Step time loss:    0.350s. Total time loss:   81.430s.
+it =     2300. Step time loss:    0.360s. Total time loss:   81.790s.
+it =     2310. Step time loss:    0.340s. Total time loss:   82.130s.
+it =     2320. Step time loss:    0.350s. Total time loss:   82.480s.
+it =     2330. Step time loss:    0.340s. Total time loss:   82.820s.
+it =     2340. Step time loss:    0.360s. Total time loss:   83.180s.
+it =     2350. Step time loss:    0.340s. Total time loss:   83.520s.
+it =     2360. Step time loss:    0.340s. Total time loss:   83.860s.
+it =     2370. Step time loss:    0.360s. Total time loss:   84.220s.
+it =     2380. Step time loss:    0.340s. Total time loss:   84.560s.
+it =     2390. Step time loss:    0.340s. Total time loss:   84.900s.
+it =     2400. Step time loss:    0.370s. Total time loss:   85.270s.
+it =     2410. Step time loss:    0.340s. Total time loss:   85.610s.
+it =     2420. Step time loss:    0.350s. Total time loss:   85.960s.
+it =     2430. Step time loss:    0.340s. Total time loss:   86.300s.
+it =     2440. Step time loss:    0.350s. Total time loss:   86.650s.
+it =     2450. Step time loss:    0.340s. Total time loss:   86.990s.
+it =     2460. Step time loss:    0.350s. Total time loss:   87.340s.
+it =     2470. Step time loss:    0.340s. Total time loss:   87.680s.
+it =     2480. Step time loss:    0.350s. Total time loss:   88.030s.
+it =     2490. Step time loss:    0.350s. Total time loss:   88.380s.
+it =     2500. Step time loss:    0.360s. Total time loss:   88.740s.
+it =     2510. Step time loss:    0.340s. Total time loss:   89.080s.
+it =     2520. Step time loss:    0.350s. Total time loss:   89.430s.
+it =     2530. Step time loss:    0.340s. Total time loss:   89.770s.
+it =     2540. Step time loss:    0.350s. Total time loss:   90.120s.
+it =     2550. Step time loss:    0.340s. Total time loss:   90.460s.
+it =     2560. Step time loss:    0.350s. Total time loss:   90.810s.
+it =     2570. Step time loss:    0.350s. Total time loss:   91.160s.
+it =     2580. Step time loss:    0.340s. Total time loss:   91.500s.
+it =     2590. Step time loss:    0.350s. Total time loss:   91.850s.
+it =     2600. Step time loss:    0.360s. Total time loss:   92.210s.
+it =     2610. Step time loss:    0.340s. Total time loss:   92.550s.
+it =     2620. Step time loss:    0.360s. Total time loss:   92.910s.
+it =     2630. Step time loss:    0.340s. Total time loss:   93.250s.
+it =     2640. Step time loss:    0.350s. Total time loss:   93.600s.
+it =     2650. Step time loss:    0.340s. Total time loss:   93.940s.
+it =     2660. Step time loss:    0.350s. Total time loss:   94.290s.
+it =     2670. Step time loss:    0.350s. Total time loss:   94.640s.
+it =     2680. Step time loss:    0.350s. Total time loss:   94.990s.
+it =     2690. Step time loss:    0.330s. Total time loss:   95.320s.
+it =     2700. Step time loss:    0.370s. Total time loss:   95.690s.
+it =     2710. Step time loss:    0.340s. Total time loss:   96.030s.
+it =     2720. Step time loss:    0.340s. Total time loss:   96.370s.
+it =     2730. Step time loss:    0.350s. Total time loss:   96.720s.
+it =     2740. Step time loss:    0.350s. Total time loss:   97.070s.
+it =     2750. Step time loss:    0.350s. Total time loss:   97.420s.
+it =     2760. Step time loss:    0.350s. Total time loss:   97.770s.
+it =     2770. Step time loss:    0.340s. Total time loss:   98.110s.
+it =     2780. Step time loss:    0.350s. Total time loss:   98.460s.
+it =     2790. Step time loss:    0.340s. Total time loss:   98.800s.
+it =     2800. Step time loss:    0.360s. Total time loss:   99.160s.
+it =     2810. Step time loss:    0.350s. Total time loss:   99.510s.
+it =     2820. Step time loss:    0.350s. Total time loss:   99.860s.
+it =     2830. Step time loss:    0.340s. Total time loss:  100.200s.
+it =     2840. Step time loss:    0.350s. Total time loss:  100.550s.
+it =     2850. Step time loss:    0.340s. Total time loss:  100.890s.
+it =     2860. Step time loss:    0.350s. Total time loss:  101.240s.
+it =     2870. Step time loss:    0.340s. Total time loss:  101.580s.
+it =     2880. Step time loss:    0.350s. Total time loss:  101.930s.
+it =     2890. Step time loss:    0.340s. Total time loss:  102.270s.
+it =     2900. Step time loss:    0.360s. Total time loss:  102.630s.
+it =     2910. Step time loss:    0.350s. Total time loss:  102.980s.
+it =     2920. Step time loss:    0.340s. Total time loss:  103.320s.
+it =     2930. Step time loss:    0.350s. Total time loss:  103.670s.
+it =     2940. Step time loss:    0.350s. Total time loss:  104.020s.
+it =     2950. Step time loss:    0.350s. Total time loss:  104.370s.
+it =     2960. Step time loss:    0.340s. Total time loss:  104.710s.
+it =     2970. Step time loss:    0.340s. Total time loss:  105.050s.
+it =     2980. Step time loss:    0.350s. Total time loss:  105.400s.
+it =     2990. Step time loss:    0.350s. Total time loss:  105.750s.
+Total elapsed time:  104.280s.
+Finish Run function

@@ -1,0 +1,78 @@
+
+LayerMedium := ON
+FREE_SURFACE := ON
+PML := ON
+SOLVE_DISPLACEMENT := ON
+
+FP16 := 
+
+SRCDIR := ../src_fp
+OBJDIR := ./obj
+BINDIR := ./bin
+
+CCHOME := /data0/home/wjl/software/gcc-9.4/usr/local
+CUDAHOME := /data0/home/wjl/software/cuda-11.0
+
+MPIHOME := /public/software/openmpi-4.1.1-cuda.10
+PROJHOME := /public/software/proj-8.1.0
+
+CC := $(CCHOME)/bin/gcc -pipe
+GC := $(CUDAHOME)/bin/nvcc -rdc=true -maxrregcount=127 -arch=sm_80 #-Xptxas=-v 
+
+INCS := -I ../inc
+
+LIBS := -L$(CUDAHOME)/lib64 -lcudart -lcublas
+INCS += -I$(CUDAHOME)/include 
+
+LIBS += -L$(MPIHOME)/lib -lmpi
+INCS += -I$(MPIHOME)/include 
+
+LIBS += -L$(PROJHOME)/lib -lproj
+INCS += -I$(PROJHOME)/include
+
+CFLAGS := -c -O3
+LFLAGS := -O3
+
+GCFLAGS := 
+# GCFLAGS += -g -G
+
+GCFLAGS += -x cu
+
+vpath
+
+vpath % $(SRCDIR)
+vpath % $(OBJDIR)
+vpath % $(BINDIR)
+
+DFLAGS_LIST := FP16 FREE_SURFACE PML SOLVE_DISPLACEMENT LayerMedium
+
+DFLAGS := $(foreach flag,$(DFLAGS_LIST),$(if $($(flag)),-D$(flag)))
+
+OBJS := cjson.o create_dir.o readParams.o init_grid.o init_MPI.o		\
+		main.o init_gpu.o run.o printInfo.o modelChecking.o coord.o		\
+		MPI_send_recv.o data_io.o medium.o calc_CFL.o model_out.o		\
+		contravariant.o MPI_send_recv_con.o MPI_send_recv_jac.o			\
+		init_pml_para.o PGV.o pml_deriv.o singleSource.o wave_deriv.o	\
+		station.o propagate.o freeSurface.o pml_freeSurface.o			\
+		wave_rk.o pml_rk.o												\
+		crustMedium.o dealMedium.o terrain.o multiSource.o
+
+OBJS := $(addprefix $(OBJDIR)/,$(OBJS))
+
+
+$(BINDIR)/CGFDM3D_fp32: $(OBJS)
+	$(GC) $(LFLAGS) $(LIBS) $^ -o $@
+
+
+$(OBJDIR)/%.o : $(SRCDIR)/%.cpp
+	$(GC) $(CFLAGS) $(DFLAGS) $(GCFLAGS) $(INCS)  $^ -o $@
+
+
+$(OBJDIR)/%.o : $(SRCDIR)/%.c
+	$(CC) $(CFLAGS) $(INCS) $^ -o $@
+
+clean:
+	-rm $(OBJDIR)/* -rf
+	-rm $(BINDIR)/CGFDM3D_fp32
+	# -rm output/CGFDM3D_fp32/* -rf
+

@@ -1,0 +1,10 @@
+# .gitignore
+.vscode
+gaussModel/output/
+gaussModel/TF_MISFIT_GOF_all/plotting_example
+gaussModel/TF_MISFIT_GOF_all/CGFDM_fp/*.DAT
+gaussModel/TF_MISFIT_GOF_all/CGFDM_fp/*.txt
+layerModel/output/
+layerModel/TF_MISFIT_GOF_all/plotting_example
+layerModel/TF_MISFIT_GOF_all/CGFDM_fp/*.DAT
+layerModel/TF_MISFIT_GOF_all/CGFDM_fp/*.txt

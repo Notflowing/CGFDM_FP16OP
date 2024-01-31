@@ -1,0 +1,1 @@
+&INPUT   MT=2999, DT=0.003, FMIN=0.35, FMAX=18.0, S1_NAME='float_3.txt', S2_NAME='half2_3.txt', NC = 2, IS_S2_REFERENCE = T, LOCAL_NORM = F/
